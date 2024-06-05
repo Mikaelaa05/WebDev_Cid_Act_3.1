@@ -4,43 +4,43 @@
 	box-sizing: border-box;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#logodiv{
-	width:50%;
-	min-height: 50px;
-	background-color: lightgray;
-	padding-left: 2%;
-	padding-right: 2%;
-	line-height: 50px;
-	float: left;
+body{
+	background-color: #EEB8C4;
 }
-#navdiv{
-    width:50%;
-	background-color: lightgray;
-	padding-left: 2%;
-	padding-right: 2%;
+#logodiv{
+	width:100%;
+	min-height: 50px;
+	background-color: #ADD8E6;
+	padding-left: 45%;
+	padding-right: 40%;
 	line-height: 50px;
-    text-align: center;
 	float: left;
 }
 #headerbanner-div{
 	width:100%;
 	min-height: 30px;
-	background-color: lightgray;
+	background-color: #ADD8E6;
 	padding-left: 2%;
 	padding-right: 2%;
 	line-height: 100px;
 	text-align: center;
 	margin-bottom: 10px;
 }
-#InTeArea{
+#navdiv{
     width:100%;
 	min-height: 30px;
-	background-color: lightgray;
+	background-color: #ADD8E6;
 	padding-left: 2%;
 	padding-right: 2%;
 	line-height: 70px;
 	text-align: center;
 	margin-bottom: 10px;
+}
+#navdiv a{
+	margin: 0 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
 }
 #Top-div{
     width:100%;
@@ -50,40 +50,28 @@
     width:100%;
 	margin-bottom: 10px;
 }
-#Box1{
-	width:30%;
-	min-height: 300px;
-	background-color: lightgray;
-	padding-left: 5%;
-    padding-right: 5%;
-	padding-top: 100px;
-	line-height: 100px;
+#Box1, #Box2, #Box3 {
+	width: 30%;
 	text-align: center;
+	min-height: 250px;
+	background-color: #ADD8E6;
 	float: left;
+	margin: 0 1.66%;
 }
-#Box2{
-	width:30%;
-	min-height: 300px;
-	background-color: lightgray;
-	padding-left: 5%;
-	padding-top: 100px;
-	padding-right: 5%;
-	line-height: 100px;
-	text-align:center;
-	margin-left: 50px;
-	float: left;
+#Box1 {
+	margin-top:90px;
 }
-#Box3{
-	width:30%;
-	min-height: 300px;
-	background-color: lightgray;
-	padding-left: 5%;
-	padding-top: 100px;
-	padding-right: 5%;
-	line-height: 100px;
-	text-align:center;
-	margin-left: 50px;
-    float: right;
+#Box2 {
+	margin-left: 1.66%;
+	margin-right: 1.66%;
+}
+#Box3 {
+	margin-top:100px;
+}
+#Box1 img, #Box2 img, #Box3 img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 .clearfix::after{
     content:"";
@@ -93,7 +81,7 @@
 #footer-div{
 	width:100%;
 	min-height: 50px;
-	background-color: lightgray;
+	background-color: #ADD8E6;
 	padding-left: 2%;
 	padding-right: 5%;
 	line-height: 50px;
@@ -110,7 +98,7 @@
 	z-index: 1; /* Stay on top */
 	top: 0; /* Stay at the top */
 	left: 0;
-	background-color: #111; /* Black */
+	background-color: #0047AB; /* Cobalt Blue */
 	overflow-x: hidden; /* Disable horizontal scroll */
 	padding-top: 20px;
   }
